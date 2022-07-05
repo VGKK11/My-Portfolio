@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+  padding: 30px;
+}
+
+a:hover {
+  background-color: burlywood;
+}
+
+#lis {
+  background-color:rgb(251, 249, 249)
+}
+
+.links {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#name {
+  color: black;
+  padding-right: 150px;
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#home {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: coral;
+  padding: 50px;
+}
+
+#img {
+  margin: 10px;
+  width: 30%;
+  border-radius: 10%;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#desc {
+  font-size: 40px;
+  padding: 5%;
+}
+
+#work {
+  font-size: 30px;
+  text-align: center;
+  background-color: darkorange;
+}
+
+hr {
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#project1 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 50px 20px 50px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#project2 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 50px 20px 50px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+#project3 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 50px 20px 50px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#skills {
+  font-size: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  padding: 8px;
+}
+
+progress[value] {
+  height: 20px;
+  width: 450px;
+  -webkit-appearance: none;
+}
+
+#resume {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#contact {
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: dimgrey;
+  text-align: center;
+  font-size: 17px;
+}
+#foot {
+  display: flex;
+  justify-content: center;
+}
+
